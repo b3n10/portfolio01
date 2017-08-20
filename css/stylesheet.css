@@ -4,18 +4,22 @@
 	box-sizing: border-box;
 }
 
-.page {
+body {
+	background: #ccc;
+}
 
+.page {
+background: #fff;
+height: auto;
+margin: 0 auto;
+max-width: 960px;
 }
 
 .header {
 	color: #fff;
 	background: #0400f2;
-	border-radius: 0 0 10px 10px;
-	max-width: 920px;
-	margin: 0 auto;
 	overflow: hidden;
-	padding: 20px 5px;
+	padding: 10px 5px;
 }
 
 .header div {
@@ -23,23 +27,103 @@
 	border-radius: 5px;
 	float: left;
 	font-size: 25px;
-	margin-left: 10px;
+	margin-left: 30px;
 	padding: 5px;
+}
+
+.header div a {
+	color: #fff;
+	font-weight: 900;
+	text-decoration: none;
 }
 
 nav {
 	float: right;
 }
 
+nav ul {
+	overflow: hidden;
+	padding: 5px 0;
+	width: 600px;
+}
+
 nav ul li {
 	float: left;
 	font-size: 25px;
-list-style-type: none;
-padding: 0px 10px;
+	list-style-type: none;
+	text-align: center;
+	width: 150px;
 }
 
 nav a {
 	color: #fff;
 	text-transform: none;
 	text-decoration: none;
+}
+
+nav ul a:hover {
+	font-weight: 900;
+}
+
+.main h1 {
+	width: 330px;
+	margin: 50px auto 50px auto;
+}
+
+.main p {
+	padding: 5px 90px;
+	text-align: justify;
+}
+
+hr {
+	margin: 20px 0;
+	border: 1px dashed #ccc;
+}
+
+.section {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.section li {
+	float: left;
+	list-style: none;
+	margin: 0 10px 0 10px;
+		position: relative;
+	width: 300px;
+}
+
+.section h3 {
+text-align: center;
+}
+
+.section img {
+	background: #cec;
+	display: block;
+	height: 300px;
+	width: 100%;
+}
+
+.section p {
+	display: none;
+	position: absolute;
+	top: 150px;
+	left: 50px;
+}
+
+.section img:hover + p {
+	display: block;
+}
+
+.section a {
+	color: #000;
+	text-decoration: none;
+}
+
+.footer p {
+	color: #fff;
+	background: #0400f2;
+	overflow: hidden;
+		text-align: center;
+	padding: 10px 5px;
 }
