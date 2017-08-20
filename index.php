@@ -9,11 +9,11 @@
 <body>
 	<div class="page">
 		<div class="header">
-			<div>
-				<a href="index.php">
+			<a href="index.php">
+				<div>
 					<span>b3n</span>
-				</a>
-			</div>
+				</div>
+			</a>
 			<nav>
 				<ul>
 					<li><a href="index.php">home</a></li>
