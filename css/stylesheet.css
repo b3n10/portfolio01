@@ -72,6 +72,10 @@ nav ul a:hover {
 	font-weight: 900;
 }
 
+.main {
+	overflow: hidden;
+}
+
 .main h1 {
 	width: 330px;
 	margin: 50px auto 50px auto;
@@ -122,6 +126,10 @@ hr {
 	display: block;
 }
 
+.section p:hover {
+	display: block;
+}
+
 .section a {
 	color: #000;
 	text-decoration: none;
@@ -133,4 +141,22 @@ hr {
 	overflow: hidden;
 	text-align: center;
 	padding: 10px 5px;
+}
+
+/* about me page */
+
+.main img {
+	float: left;
+	background: #cec;
+	display: inline-block;
+	height: 200px;
+	margin: 10px;
+	width: 240px;
+}
+
+p.aboutme_p {
+	float: right;
+	padding: 10px 10px;
+	text-align: justify;
+	width: 700px;
 }
