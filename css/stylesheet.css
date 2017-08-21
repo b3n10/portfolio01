@@ -145,18 +145,49 @@ hr {
 
 /* about me page */
 
-.main img {
-	float: left;
-	background: #cec;
-	display: inline-block;
-	height: 200px;
-	margin: 10px;
-	width: 240px;
+.aboutme,
+.info1 {
+	overflow: hidden;
 }
 
-p.aboutme_p {
+.aboutme h1	{
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 245px;
+}
+
+.aboutme p {
+	line-height: 1.5;
+	text-align: justify;
+}
+
+.info1 img {
+display: inline-block;
+	float: left;
+	background: #cec;
+	height: 320px;
+	margin: 10px;
+	width: 320px;
+}
+
+.info1 p {
+	display: inline-block;
 	float: right;
+	padding: 15px;
+	width: 63%;
+}
+
+.aboutme .info2  {
 	padding: 10px 10px;
 	text-align: justify;
-	width: 700px;
+	width: 100%;
+}
+
+.info2 ul {
+	margin: 20px 0;
+}
+
+.info2 ul li {
+	list-style: none;
+	padding: 10px 0;
 }
